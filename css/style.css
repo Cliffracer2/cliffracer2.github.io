@@ -5,6 +5,8 @@ Template 2075 Digital Team
 http://www.tooplate.com/view/2075-digital-team
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
 
 body {
     background: #ffffff;
@@ -736,7 +738,7 @@ footer p {
 /* ==========================================================================
 media quires for mobile
 ========================================================================== */
-@media (max-width: 440px) {
+@media (max-width: 800px) {
   #home {
     padding-top: 320px;
     padding-bottom: 320px;
@@ -748,5 +750,8 @@ media quires for mobile
   #home h3 {
     font-size: 12px;
     text-shadow: 2px 2px #000000;
+  }
+  #work i{
+    font-size: 5vw;
   }
 }
