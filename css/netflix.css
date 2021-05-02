@@ -1,0 +1,544 @@
+/* body */
+body{
+    background-color: black;
+}
+
+body h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+/* Logo */
+.netflix-logo, #nav-pc, #row-pc, #faq-pc, #title-text-pc{
+    display: block !important;
+}
+
+.netflix-logo-m, #nav-m, #row-m, #faq-m, #title-text-m{
+    display: none !important;
+}
+
+.netflix-logo{
+    margin-left: 3%;
+}
+
+.netflix-logo-m{
+    margin-left: 3%;
+}
+
+#netflix-logo{
+    fill: red;
+}
+
+
+/* main background img */
+#header-title-bg img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* display: inline-block; */
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+#header-nav{
+    background-color: transparent;
+    transition: background-color .5s;
+    position: relative;
+    /* max-width: 1920px; */
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5rem;
+    z-index: 10;
+    
+}
+
+/* header */
+#header-nav a, #header-nav div{
+    display: inline-block;
+}
+/* nav in header */
+#nav-pc {
+    position: absolute;
+    right: 10% !important;
+    top: 80%;
+}
+#nav-pc .dropdown{
+    padding-right: 30px;
+}
+#header-nav a, #header-nav div {
+    display: inline-block;
+    color: #fff;
+}
+
+/* 콤보박스 설정 */
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default, .btn-default, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #fff;
+    background-color: black;
+    border-color: #fff;
+}
+.open>.dropdown-menu {
+    display: block;
+    color: #fff;
+    background-color: black;
+    border-color: #fff;
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: black;
+    border-color: #fff;
+}
+
+/* title 꾸미기 */
+#title {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    border-bottom: 10px solid rgb(65, 65, 65);
+    /* background-image: url("/img/netflix-main.jpg"); */
+}
+
+/* #title::after{
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("/img/netflix-main.jpg");
+    width: 100%;
+    height: 100%;
+    opacity : 0.4;
+    z-index: -1;
+} */
+
+.title-box{
+    margin-top: 12%;
+}
+
+#title-text-pc>h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+
+#title-text-pc>h2 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+#title-text-pc>h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-danger{
+    background-color: red;
+    color: white;
+}
+
+/* 이메일 입력창, 시작하기 버튼 */
+.form-inline, .form-control, .input-group .input-group-btn{
+    height: 70px !important;
+}
+
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    height: 70px !important;
+}
+/* title 꾸미기 end */
+
+/* content box */
+.row{
+    color: white !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.col-sm-6 h1, .col-sm-6 h2{
+    text-align: left;
+}
+
+.col-sm-6 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.col-sm-6 h2{
+    font-size: 20px;
+}
+
+#mobile .col-sm-6{
+    float: right;
+}
+
+.text-box{
+    margin-top: 20%;
+}
+
+#tv, #mobile, #device{
+    background-color: black;
+    border-bottom: 10px solid rgb(65, 65, 65);
+    position: relative;
+    z-index: 2000;
+}
+
+#tv-box, #device-box{
+    position: relative;
+    overflow: hidden;
+}
+
+#video-tv, #img-tv, #img-device, #video-device{
+    width: 100%;
+    height: 100%;
+}
+
+#img-tv, #img-device{
+    position: relative;
+    z-index: 2;
+}
+
+#video-tv{
+    position: absolute;
+    left:50%;
+    top:60%;
+    transform: translate(-50%,-50%);
+    z-index: -9999;           
+}
+
+#video-tv video{
+    width: 73%;
+    height: 75%;
+}
+
+#video-device{
+    position: absolute;
+    top: 10%;
+    /* left: 20%; */
+}
+
+#video-device video{
+    width: 65%;
+    height: 50%;
+}
+
+#mobile .row{
+    float: right;
+}
+
+#m-box{
+    width: 100%;
+    height: 100%;
+}
+
+#m-box img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#card-box{
+    position: absolute;
+    padding: .5em .75em;
+    left: 42%;
+    bottom: 8%;
+    transform: translateX(-35%);
+    margin: 0 auto;
+    background: #000;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    min-width: 15em;
+    border: 2px solid rgba(255,255,255,.25);
+    box-shadow: 0 0 2em 0 #000;
+    border-radius: .75em;
+
+}
+
+#boxshot{
+    margin: 0 1em 0 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 4.5em;
+    width: 20%;
+}
+
+#boxshot img{
+    max-width: 100%;
+}
+
+/* #download-icon{
+    padding-left: 20%;
+} */
+
+#download-icon:after {
+    width: 3em;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    display: block;
+    background: url("/img/download-icon.gif") center center no-repeat;
+    background-size: 100%;
+    content: '';
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+/* content box end */
+
+/* FAQ container */
+#faq, #siteMap, #footer{
+    color: #757575;
+}
+
+#faq{
+    border-bottom: 10px solid rgb(65, 65, 65);
+    padding-bottom: 50px;
+}
+
+#faq-title{
+    margin: 50px 0;;
+}
+
+.accordion {
+    /* background-color: #eee; */
+    background-color: #303030;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    /* border-bottom: 1px solid #1d1d1d; */
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+/* .active, .accordion:hover {
+background-color: #ccc;
+} */
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    /* padding: 10 20px; */
+    /* background-color: white; */
+    background-color: #303030;
+    color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: left;
+}
+
+#faq .active{
+    margin-top: 5px !important;
+}
+
+.email-form-title{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+/* FAQ container end */
+
+/* sitemap container */
+#siteMap h4{
+    margin-top: 50px;
+}
+#siteMap .row{
+    margin: 30px 0;
+}
+.col-sm-12, .col-sm-3{
+    color: #757575;
+}
+.col-sm-3 ul{
+    list-style-type: none;
+    left: 0 !important;
+    padding-left:0;
+    line-height: 3.5;
+
+}
+.col-sm-3 li{
+    list-style-type: none;
+    text-align: left;
+}
+/* sitemap 콤보박스 설정 */
+#siteMap .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default, .btn-default, .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #fff;
+    background-color: black;
+    border-color: #fff;
+}
+#siteMap .open>.dropdown-menu {
+    display: block;
+    color: #fff;
+    background-color: black;
+    border-color: #fff;
+}
+#siteMap .btn-default {
+    color: #757575;
+    background-color: black;
+    border-color: #fff;
+    width: 120px;
+    height: 50px;
+}
+#siteMap .btn-default:hover {
+    color: #757575;
+    background-color: black;
+    border-color: #fff;
+}
+#siteMap .dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #757575;
+    white-space: nowrap;
+}
+/* sitemap container end */
+
+/* mobile screen */
+@media only screen and (max-width: 900px){
+    /* logo */
+    .netflix-logo, #nav-pc, #row-pc, #faq-pc, #title-text-pc{
+        display: none !important;
+    }
+    
+    .netflix-logo-m, #nav-m, #row-m, #faq-m, #title-text-m{
+        display: block !important;
+    }
+
+    .netflix-logo {
+        margin-left: 3%;
+    }
+    
+    .netflix-logo-m {
+        margin-left: 3%;
+    }
+
+    /* nav */
+    #nav-m{
+        position: absolute;
+        right: 4% !important;
+        top: 80%;
+    }
+
+    #nav-m .dropdown{
+        padding-right: 0px;
+    }
+
+    /* title */
+    #title {
+        width: 100%;
+        height: 500px;
+        position: relative;
+        border-bottom: 10px solid rgb(65, 65, 65);
+    }
+
+    .title-box{
+        margin-top: 20%;
+    }
+
+    #title-text-m>h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    #title-text-m>h2 {
+        color: white;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    
+    #title-text-m>h3 {
+        color: white;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    /* content box */
+    .col-sm-6 h1, .col-sm-6 h2{
+        text-align: center;
+    }
+    
+    .col-sm-6 h1{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .col-sm-6 h2{
+        font-size: 15px;
+    }
+
+    #mobile .col-sm-12 h1, .col-sm-12 h2{
+        text-align: center;
+    }
+
+    .col-sm-12 h1{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .col-sm-12 h2{
+        font-size: 15px;
+    }
+
+    /* faq */
+    #faq-title h1{
+        margin: 50px 0;
+        font-size: 30px;
+    }
+
+    #faq .email-form-title{
+        font-size: 15px;
+    }
+
+    #faq-m .panel {
+        /* padding: 10 20px; */
+        /* background-color: white; */
+        height: 800px;
+        background-color: #303030;
+        color: #fff;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        text-align: left;
+    }
+
+    /* sitemap */
+    #siteMap .col-sm-6{
+        color: #757575;
+        width: 50%;
+        float: left;
+    }
+
+    #siteMap .col-sm-6 ul{
+        list-style-type: none !important;
+        left: 0 !important;
+        padding-left:0;
+        line-height: 3.5;
+    }
+    #siteMap .col-sm-6 li{
+        list-style-type: none;
+        text-align: left;
+        font-size: 10px;
+    }
+}
