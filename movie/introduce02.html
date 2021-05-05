@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미나리</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/movie.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        #pageperson{
+            background-color: #ffffff;
+            min-height: 100%;
+            position: relative;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="pageperson">
+        <!-- header ------------------------------------------------->
+        <div data-role="header" class="bg-header">
+            <h3></h3>
+            <a href="movie.html" rel="external" data-icon="home">Home</a>
+            <a href="movie.html" rel="external" data-icon="back">Prev</a>
+        </div>
+        <!-- header -->
+        <!-- content ------------------------------------------------->
+        <div data-role="ui-content">
+            <!-- navigation ------------------------------------------------->
+            <div data-role="navbar">
+                <ul>
+                    <li>
+                        <a class="bg-nav" href="introduce01.html" rel="external">줄거리</a>
+                    </li>
+                    <li>
+                        <a class="bg-nav-active" href="introduce02.html" rel="external" class="ui-btn-active">등장인물</a>
+                    </li>
+                    <li>
+                        <a class="bg-nav" href="introduce03.html" rel="external">평점</a>
+                    </li>
+                </ul>
+            </div><!-- /navbar -->
+            <!-- navigation -->
+            <div data-role="ui-content" id="content">
+                <h4>등장인물</h4>
+                <div class="ui-grid-a ui-responsive">
+                    <div class="ui-block-a">
+                        <img src="img/actor01.jpg" alt="actor01">
+                        <div>스티븐 연</div>
+                        <div style="color:black;">
+                            Steven Yeun<br>
+                            <span>주연</span> | 제이콥 역 <br>
+                            <br>
+                            미나리,2020<br>
+                            네이세이어,2018<br>
+                        </div>
+                        <div style="clear: both;">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <img src="img/actor02.jpg" alt="actor02">
+                        <div>한예리</div>
+                        <div style="color:black;">
+                            <span>주연</span> | 모니카 역<br>
+                            <br>
+                            미나리,2020<br>
+                            해치지않아,2019<br>
+                        </div>
+                        <div style="clear: both;">
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-grid-a ui-responsive">
+                    <div class="ui-block-a">
+                        <img src="img/actor03.jpg" alt="actor01">
+                        <div>윤여정</div>
+                        <div style="color:black;">
+                            <span>주연</span> | 순자 역 <br>
+                            <br>
+                            미나리,2020<br>
+                            헤븐: 행복의 나라로 (가제),2019<br>
+                        </div>
+                        <div style="clear: both;">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <img src="img/actor04.jpg" alt="actor02">
+                        <div>앨런 김</div>
+                        <div style="color:black;">
+                            Alan S. Kim<br>
+                            <span>주연</span> | 데이빗 역<br>
+                            <br>
+                            미나리,2020<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-grid-a ui-responsive">
+                    <div class="ui-block-a">
+                        <img src="img/actor05.jpg" alt="actor01">
+                        <div>노엘 조</div>
+                        <div style="color:black;">
+                            Noel Cho<br>
+                            <span>주연</span> | 앤 역 <br>
+                            <br>
+                            미나리,2020<br>
+                        </div>
+                        <div style="clear: both;">
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <img src="img/actor06.jpg" alt="actor02">
+                        <div>윌 패튼</div>
+                        <div style="color:black;">
+                            Will Patton<br>
+                            <span>주연</span> | 폴 역<br>
+                            <br>
+                            미나리,2020<br>
+                            보딩 스쿨: 기숙학교,2018<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui-grid-a ui-responsive">
+                    <div class="ui-block-a">
+                        <img src="img/actor-none.png" alt="actor01">
+                        <div>스콧 헤이즈</div>
+                        <div style="color:black;">
+                            Scott Haze<br>
+                            <span>조연</span> | 빌리 역 <br>
+                            <br>
+                            앤틀러스,2020<br>
+                            미나리,2020<br>
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <!--  -->
+                </div>
+            </div>
+        </div>
+        <!-- content -->
+        <!-- footer ------------------------------------------------->
+        <div data-role="footer" class="bg-footer">
+            <h3>CGV&copy;All rights reserved.</h3>
+        </div>
+        <!-- footer -->
+    </div>
+</body>
+</html>

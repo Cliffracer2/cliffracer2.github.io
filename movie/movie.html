@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미나리</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/movie.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        #page1{
+            background-color: #ffffff;
+        }
+        .bg-listview a{
+            background-color: #FDE759 !important;
+            text-shadow: none !important;
+        }
+        .bg-footer{
+            background-color: #FDE759 !important;
+            text-shadow: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <!-- header ------------------------------------------------->
+        <div data-role="header">
+            <img src="img/movie_poster.jpg" alt="포스터이미지" width="100%">
+        </div>
+        <!-- header -->
+        <!-- content ------------------------------------------------->
+        <div data-role="ui-content">
+            <ul data-role="listview" data-inset="true" class="bg-listview">
+                <li>
+                    <a href="trailer.html" rel="external">
+                    <img src="img/movie_trailer.png" alt="menu1" class="ui-li-icon">
+                    영화예고편
+                    </a>
+                </li>
+                <li>
+                    <a href="photo.html" rel="external">
+                    <img src="img/movie_image2.png" alt="menu2" class="ui-li-icon">
+                    영화이미지
+                    </a>
+                </li>
+                <li>
+                    <a href="introduce01.html" rel="exteral">
+                    <img src="img/movie_introduce.png" alt="menu3" class="ui-li-icon">
+                    영화소개
+                    </a>
+                </li>
+                <li>
+                    <a href="location.html" rel="external">
+                    <img src="img/movie_location2.png" alt="menu4" class="ui-li-icon">
+                    영화관위치
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- content -->
+        <!-- footer ------------------------------------------------->
+        <div data-role="footer" class="bg-footer">
+            <h3>CGV&copy;All rights reserved.</h3>
+        </div>
+        <!-- footer -->
+    </div>
+</body>
+</html>

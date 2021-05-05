@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미나리</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <style>
+        #page1{
+            background-color: #ffffff;
+        }
+        .bg-header{
+            background-color: #FDE759 !important;
+            text-shadow: none !important;
+        }
+        .bg-header a{
+            background-color: #26BFBF !important;
+            text-shadow: none !important;
+        }
+        .bg-nav{
+            background-color: #FDE759 !important;
+            text-shadow: none !important;
+        }
+        .bg-nav-active{
+            background-color: #FF5B79 !important;
+            text-shadow: none !important;
+        }
+        .bg-footer{
+            background-color: #FDE759 !important;
+            text-shadow: none !important;
+        }
+        #content{
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page" id="page1">
+        <!-- header ------------------------------------------------->
+        <div data-role="header" class="bg-header">
+            <h3>영화 이미지</h3>
+            <a href="movie.html" rel="external" data-icon="home" >Home</a>
+            <a href="movie.html" rel="external" data-icon="back">Prev</a>
+        </div>
+        <!-- header -->
+        <!-- content ------------------------------------------------->
+        <div data-role="ui-content">
+            <!-- Add images to <div class="fotorama"></div> -->
+            <div class="fotorama" data-nav="thumbs" data-loop="true" data-width="100%">
+                <img src="img/movie_image.jpg" alt="image01">
+                <img src="img/movie_image2.jpg" alt="image02">
+                <img src="img/movie_image3.jpg" alt="image03">
+                <img src="img/movie_image4.jpg" alt="image04">
+                <img src="img/movie_image5.jpg" alt="image05">
+                <img src="img/movie_image6.jpg" alt="image06">
+                <img src="img/movie_image7.jpg" alt="image07">
+                <img src="img/movie_image8.jpg" alt="image08">
+                <img src="img/movie_image9.jpg" alt="image09">
+                <img src="img/movie_image10.jpg" alt="image10">
+            </div>
+        </div>
+        <!-- content -->
+        <!-- footer ------------------------------------------------->
+        <div data-role="footer" class="bg-footer">
+            <h3>CGV&copy;All rights reserved.</h3>
+        </div>
+        <!-- footer -->
+    </div>
+</body>
+</html>

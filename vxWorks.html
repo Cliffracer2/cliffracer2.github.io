@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VxWorks를 이용한 개발</title>
+    <!-- Roboto font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+    <!-- https://projects.verou.me/prefixfree/ -->
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .work {
+            margin: 40px 0;
+            text-align: center;
+            color: #eee;
+        }
+        .work h2 {
+            color: #00c6d7;
+            font-size: 20px;
+        }
+        .work hr{
+            width: 240px;
+            margin-bottom: 30px;
+        }
+        .work strong {
+            font-size: 60px;
+            color: #00c6d7;
+        }
+        .work hr {
+            width: 600px;
+        }
+        .work p {
+            font-size: 20px;
+            /* text-align: left; */
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            margin-bottom: 10px;
+        }
+        .col-sm-12 {
+            margin-bottom: 30px;
+        }
+        li{
+            margin-left: 10%;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <section class="work">
+        <div class="container">
+            <div class="section-title">
+                <strong>01</strong>
+                <h1 class="heading bold">수도권 고속철도 TIMS 개발(원격속도제어 장치)</h1>
+                <h1 class="heading bold">수도권 고속철도 FEPOL 개발</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Tornado를 사용한 VxWorks 5.x 버전 환경에서 개발</h2>
+                        <a href="https://www.yumpu.com/en/document/view/16260564/tornador-wind-river" target="_blank">
+                            <img src="img/tornador-wind-river.jpg" alt="Tornado">
+                        </a>
+                    </div>
+                    <div class="col-sm-12">
+                        <h2>QAC를 활용한 정적 테스트</h2>
+                        <a href="https://mdspacific.com/products/qacc/" target="_blank">
+                            <img src="img/qac_c_01.jpg" alt="QAC">
+                        </a>
+                        <ul>
+                            <li>MISRA C 코딩룰을 준수한 개발을 진행하면서 SW 안정성 확보</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12">
+                        <h2>VectorCAST를 사용한 동적 테스트</h2>
+                        <a href="https://mdspacific.com/products/vectorcast/" target="_blank">
+                            <img src="img/VC-main-image.jpg" alt="VectorCAST">
+                        </a>
+                        <ul>
+                            <li>다양한 테스트 케이스를 만들고 동적 테스트를 진행하면서 요구사항 스펙에 맞는지 검증</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <div class="section-title">
+                <strong>02</strong>
+                <h1 class="heading bold">LTE-R기반 한국형열차제어 시스템 제작 설치</h1>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Wind River Workbench 환경에서 VxWorks CERT 버전으로 개발</h2>
+                        <a href="https://www.windriver.com/" target="_blank">
+                            <img src="img/WIndRiver-Workbench.png" alt="Workbench">
+                        </a>
+                    </div>
+                    <div class="col-sm-12">
+                        <h2>시리얼 통신 & 내부 메시지 송수신 처리</h2>
+                        <ul>
+                            <li>IEC 61508 – 안전 무결성 수준(SIL: Safety Integrity Level)의 레벨 4를 만족하기 위한 데이터 처리</li>
+                            <li>시스템 메인보드에서 외부 장치들 간의 인터페이스 사양에 만족한 시리얼 통신 구현</li>
+                            <li>2중계 절체 시스템에서 VxWorks CERT 버전에 맞는 메인보드간의 내부 시리얼 통신 구현</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12">
+                        <h2>QAC를 활용한 정적 테스트</h2>
+                        <a href="https://mdspacific.com/products/qacc/" target="_blank">
+                            <img src="img/qac_c_01.jpg" alt="QAC">
+                        </a>
+                        <ul>
+                            <li>MISRA C 코딩룰을 준수한 개발을 진행하면서 SW 안정성 확보</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

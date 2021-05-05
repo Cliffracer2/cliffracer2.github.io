@@ -1,0 +1,91 @@
+
+#page1{
+    background-color: #ffffff;
+}
+.bg-header{
+    background-color: #FDE759 !important;
+    text-shadow: none !important;
+}
+.bg-header a{
+    background-color: #26BFBF !important;
+    text-shadow: none !important;
+}
+.bg-listview a{
+    background-color: #FDE759 !important;
+    text-shadow: none !important;
+}
+.bg-nav{
+    background-color: #FDE759 !important;
+    text-shadow: none !important;
+}
+.bg-nav-active{
+    background-color: #FF5B79 !important;
+    text-shadow: none !important;
+}
+.bg-footer{
+    background-color: #FDE759 !important;
+    text-shadow: none !important;
+}
+#content h4, b, p{
+    padding: 10px;
+    
+}
+.score{
+    position: relative;
+    float: left;
+    /* margin-bottom: 40px; */
+    width: 50px;
+}
+.stars{
+    position: relative;
+    float: left;
+    font-size: 13px;
+    width: 100px;
+    margin-top: 23px;
+    /* margin-left: 10px; */
+    margin-right: 5px;
+}
+.stars-background{
+    position: absolute;
+    width: 100%; 
+    overflow:hidden; 
+    /* color:#cdcdcd; */
+    color:black;
+}
+.stars-fill{
+    position: absolute;
+    width: 83%;
+    overflow: hidden; 
+    white-space: nowrap;
+    color: red;
+}
+.piechart{
+    position: relative;
+    width: 100%;
+    clear: both;
+    /* margin-right: 50px; */
+}
+.ui-grid-a{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ui-block-a, .ui-block-b{ 
+    font-size: 12px;
+}
+.ui-block-a img, .ui-block-b img{ 
+    float:left;
+    /* width: 50%; */
+    margin-right: 10px;
+}
+.ui-block-a div, .ui-block-b div{
+    color: blue;
+    font-weight: bold;
+}
+.ui-block-a span, .ui-block-b span{
+    color: red;
+}
+.explain div{
+    color:black;
+    clear: left;
+}
