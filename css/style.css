@@ -277,12 +277,12 @@ work section
 #work h1{
     font-size: 40px;
 }
-#work .col-md-4 {
+#work .col-md-3 {
     padding: 25px;
     position: relative;
     transition: all 0.4s ease-in-out;
 }
-#work .col-md-4:hover {
+#work .col-md-3:hover {
     color: #00c6d7;
     background-color: #4B4B4B;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.20);
@@ -387,9 +387,21 @@ portfolio section
 contact section
 ========================================================================== */
 #contact {
-    background: #3B3B3B url('../images/contact-bg.jpg') no-repeat center center;
-    background-size: cover;
-    color: #ffffff;
+    padding: 70px 0 !important;
+    background: #3B3B3B;
+    color: #ddd;
+    text-align: center;
+}
+#contact hr{
+    width: 340px;
+    margin-bottom: 50px !important;
+}
+#contact strong {
+    color: #00c6d7;
+    font-size: 60px;
+}
+#contact h1{
+    font-size: 40px;
 }
 #contact h2 {
     padding-bottom: 20px;
@@ -403,9 +415,13 @@ contact section
     padding-top: 10px;
     padding-right: 10px;
 }
-#contact .contact-info div {
-    padding-top: 14px;
-    padding-bottom: 14px;
+.contact-info-left {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 36.5%;
+}
+.contact-info-right {
+    text-align: center;
 }
 #contact form {
     padding-top: 60px;
@@ -440,7 +456,7 @@ footer {
     /* margin: 210px 0; */
     color: #ddd;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 20px;
     /* border: 1px solid red; */
 }
